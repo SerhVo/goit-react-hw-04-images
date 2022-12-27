@@ -2,7 +2,7 @@ import { Component } from 'react';
 import style from './Searchbar.module.css';
 import css from './SearchForm.module.css';
 import PropTypes from 'prop-types';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 export class Searchbar extends Component {
   state = {
